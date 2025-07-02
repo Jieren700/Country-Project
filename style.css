@@ -1,0 +1,78 @@
+body{
+  margin:0 auto;
+}
+
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+.container{
+  display:flex;
+}
+.container *{
+  flex: 1;
+  text-align: center;
+}
+nav{
+  background-color: rgb(0, 0, 0);
+}
+.bar{
+  text-decoration: none;
+  color: #70aeffee
+}
+.bar:hover{
+  color: rgb(2, 0, 138);
+  background-color: rgb(132, 69, 161);
+  transition:1s;
+}
+#map{
+  filter: blur(2px);
+}
+#map:hover{
+  filter:none;
+  filter: drop-shadow(0px 3px 5px grey);
+  transition: 2s;
+}
+/* banner */
+#homepage{
+  justify-content: center;
+  align-items: center;
+  background-position: top center;
+  background-image: url(Pictures/Taiwan\ Banner\ background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:450px;
+  padding: 150px;
+}
+#Section{
+  background-color: grey;
+  height: 90px;
+}
+#Section:hover{
+  background-color:rgb(00,00,00);
+  color:#9471f4;
+  transition:1s;
+}
+#section1{
+  font-size: 30px;
+}
+
+.image {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.text {
+  background-color: #6b6b6b;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+#footer{
+  background-color: grey;
+}
+#footer:hover{
+  background-color: black;
+  color:grey;
+  transition: 1s;
+}
